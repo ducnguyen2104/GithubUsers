@@ -37,7 +37,7 @@ class UserDetailViewController: UIViewController {
         view.layer.shadowColor = UIColor.black.cgColor
         view.layer.shadowOffset = CGSize(width: 0, height: 5)
         view.layer.shadowOpacity = 0.5
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .secondarySystemBackground
         return view
     }()
     

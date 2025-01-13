@@ -25,7 +25,7 @@ struct ListUserView: View {
                     }
                     .listRowBackground(
                         RoundedRectangle(cornerRadius: 5)
-                            .foregroundColor(Color.white)
+                            .foregroundColor(Color(UIColor.secondarySystemBackground))
                             .shadow(radius: 3)
                             .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
                                      )
